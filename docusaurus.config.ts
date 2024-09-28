@@ -39,7 +39,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/aspecsWeb/nanojs-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -60,7 +60,7 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/aspecsWeb/nanojs',
           label: 'GitHub',
           position: 'right',
         },
@@ -70,11 +70,15 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Aspecs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Website',
+              to: 'https://www.aspecs.ch/en',
+            },
+            {
+              label: 'Socials',
+              to: 'https://www.aspecs.ch/en/socials',
             },
           ],
         },
@@ -82,16 +86,16 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/aspecsweb/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/aspecsweb/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'YouTube',
+              href: 'https://www.youtube.com/@aspecsweb',
             },
           ],
         },
@@ -99,12 +103,8 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/aspecsWeb/nanojs',
             },
           ],
         },
