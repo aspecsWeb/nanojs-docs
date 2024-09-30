@@ -60,7 +60,7 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/aspecsWeb/nanojs',
+          to: 'https://github.com/aspecsWeb/nanojs',
           label: 'GitHub',
           position: 'right',
         },
@@ -70,8 +70,50 @@ const config: Config = {
       style: 'dark',
       links: [
         {
+          title: 'NanoJS',
+          items: [
+            {
+              label: 'Website',
+              to: 'https://www.nanojs.dev',
+            },
+            {
+              label: 'Docs',
+              to: 'https://www.docs.nanojs.dev',
+            },
+            {
+              label: 'CLI',
+              to: 'https://github.com/aspecsWeb/nanojs-cli',
+            },
+          ],
+        },
+        {
+          title: 'Contribute',
+          items: [
+            {
+              label: 'Framework',
+              to: 'https://github.com/aspecsWeb/nanojs',
+            },
+            {
+              label: 'Documentation',
+              to: 'https://github.com/aspecsWeb/nanojs-docs',
+            },
+            {
+              label: 'NanoJS CLI',
+              to: 'https://github.com/aspecsWeb/nanojs-cli,
+            },
+            {
+              label: 'Website',
+              to: 'https://github.com/aspecsWeb/nanojs-website',
+            },
+          ],
+        },
+        {
           title: 'Aspecs',
           items: [
+            {
+              label: 'Sponsor',
+              to: 'https://github.com/sponsors/aspecsWeb',
+            },
             {
               label: 'Website',
               to: 'https://www.aspecs.ch/en',
@@ -79,32 +121,6 @@ const config: Config = {
             {
               label: 'Socials',
               to: 'https://www.aspecs.ch/en/socials',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Instagram',
-              href: 'https://www.instagram.com/aspecsweb/',
-            },
-            {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/company/aspecsweb/',
-            },
-            {
-              label: 'YouTube',
-              href: 'https://www.youtube.com/@aspecsweb',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/aspecsWeb/nanojs',
             },
           ],
         },
