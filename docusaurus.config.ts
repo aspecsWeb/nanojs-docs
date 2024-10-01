@@ -99,7 +99,7 @@ const config: Config = {
             },
             {
               label: 'NanoJS CLI',
-              to: 'https://github.com/aspecsWeb/nanojs-cli,
+              to: 'https://github.com/aspecsWeb/nanojs-cli',
             },
             {
               label: 'Website',
