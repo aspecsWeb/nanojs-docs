@@ -7,7 +7,7 @@ slug: /
 
 Let's discover **NanoJS in less than 5 minutes**.
 
-## Getting Started
+## Getting Started test
 
 Get started by **cloning the repo**.
 
